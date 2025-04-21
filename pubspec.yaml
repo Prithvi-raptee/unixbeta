@@ -22,3 +22,16 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  native_assets:
+    ios:
+      enable: false
+    android:
+      enable: false
+    web:
+      enable: false
+    linux:
+      enable: false
+    macos:
+      enable: false
+    windows:
+      enable: false
