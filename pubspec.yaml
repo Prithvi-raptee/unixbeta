@@ -1,0 +1,24 @@
+name: unixbeta
+description: A Flutter app communicating via Unix Sockets.
+
+publish_to: 'none' # Remove this line if you intend to publish the package
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0' # Adjust based on your Flutter/Dart SDK
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^9.1.0
+  equatable: ^2.0.7
+  ffi: ^2.1.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
